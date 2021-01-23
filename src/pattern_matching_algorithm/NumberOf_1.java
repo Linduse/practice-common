@@ -17,7 +17,7 @@ import java.util.Scanner;
 public class NumberOf_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("请输入一个整数：");
+        System.out.println("请输入一十进制个整数：");
         int m = sc.nextInt();
         /*这是官方解法*/
         int n = func(m);
